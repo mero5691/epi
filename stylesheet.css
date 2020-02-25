@@ -1,0 +1,457 @@
+body{
+    margin: 0px;
+    background-color: #efefef;
+}
+
+.s1{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 565px;
+    position: relative;
+
+}
+header{
+
+    width: 100%;
+    position: absolute;
+    top:190px;
+   /* left: 33.3%;  width 1536/3=512/1536*100=33.3%*/
+    display: flex;
+    justify-content: center;
+}
+header p{
+    font-family: Jokerman , forte;
+    color: #fff;
+    margin: 0px;
+
+    font-size:80px;
+    border-bottom: 2px solid white;
+    width: 615px;
+    text-align: center;
+    
+}
+header h4{
+    font-family: Microsoft Yi Baiti;
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+       
+       
+}    
+    
+ header a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dotted white;
+ }
+ header a:hover{
+    color: hotpink;
+    border-bottom: 1px dotted hotpink;
+ }
+ .s2{
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+ .s2 .divs2{
+    height: 535px;
+    background-color: white;
+    width: 75%;
+    position: absolute;
+    top: 85px;
+    display:flex;
+    justify-content: center;
+
+ }
+ .s2 .divs2 i{
+    border-radius: 50%; 
+    position: absolute;
+    top: 55px;
+    border: 2px solid #000;
+    padding: 25px;
+    left: 45%
+ }
+ .divs2 h1{
+    position:absolute ;
+    top: 160px;
+    color: #535353;
+    letter-spacing: 5px;
+    font-family: Microsoft Yi Baiti;
+    font-size: 35px;
+    font-weight:  900;
+}
+ .divs2 p{
+    font-size: 20px;
+    color:#979292;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top:250px;
+ }
+.divs2 a {
+    text-decoration: none;
+    color:#000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Microsoft Yi Baiti;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 400px;
+    border-radius: 4px;
+    padding: 15px;
+     box-shadow: 3px 3px 3px #ccc ;
+    }
+.divs2 a:hover{
+    box-shadow: 3px 3px 3px #ccc inset;
+    color:#ec3983;
+    transition: all .1s ease-in-out;
+}
+.s3{
+   height: 570px;
+   display: flex;
+
+
+}
+.s3 div{
+ background-color: white;
+ width:550px;
+ height :530px;
+position: relative;
+border-radius: 5px;
+}
+.s3 .div1{
+left:190px;
+background-image: url(pic01.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.s3 .div2{
+left:228px;
+background-image: url(pic02.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.s3 div img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 45%;
+  }
+ .s3 div h1{
+  position: absolute;
+  color: #fff;
+  font-family: Microsoft Yi Baiti;
+  letter-spacing: 5px;
+  font-size: 30px;
+  top: 17%;
+  left:18%;
+ }
+ .s3 div p{
+  color:#535353;
+  text-align: center;
+  top:59%;
+  position: absolute;
+  font-size: 20px;
+  width: 450px;
+  left:9%
+ }
+ .s3 div a{
+  text-decoration: none;
+  color:#000;
+  font-family:Microsoft Yi Baiti;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top:85%;
+  left:40%;
+  box-shadow: 3px 3px 3px #ccc;
+ }
+ .s3 div a:hover{
+    color:#ec3983;
+    box-shadow: 3px 3px 3px #ccc inset;
+    transition: all .1s ease-in-out;
+ }
+ .s3 .div3{
+  background-image: url(pic03.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+ }
+ .s3 .div4{
+  background-image: url(pic04.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+ }
+ .s4{
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+ }
+ .s4 h1{
+  color: #535353;
+  font-family:Microsoft Yi Baiti;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top:4%;
+  margin-bottom: 0px;
+ }
+ .s4 p{
+  color: #979292;
+  position: absolute;
+  width: 430px;
+  font-size: 20px;
+  text-align: center;
+  top:20%;
+  line-height: 30px;
+  margin-top: 0px;
+ }
+ .s4 .a{
+  text-decoration: none;
+  color:#000;
+  font-family:Microsoft Yi Baiti;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  box-shadow: 3px 3px 3px #ccc;
+  top:44%
+ }
+ .s4 .a:hover{
+   color:#ec3983;
+    box-shadow: 3px 3px 3px #ccc inset;
+    transition: all .1s ease-in-out;
+ }
+  .s4 div{
+   width: 7%;
+   border-bottom: 2px solid #707070;
+   top: 77%;
+   position: absolute;
+  }
+  .s4 i{
+
+   padding: 12px;
+   color: #000;
+   box-shadow: 2px 2px 2px #ccc;
+   border-radius: 50%;
+  }
+  .s4 #iii{
+   width:325px;
+   border-bottom: none;
+   top:90%;
+   left:40%;
+  }
+ .s4 #f:hover{
+  color:blue;
+  box-shadow: 2px 2px 3px #ccc inset;
+ }
+  .s4 #t:hover{
+  color:skyblue;
+  box-shadow: 2px 2px 3px #ccc inset;
+ }
+ .s4 #i:hover{
+  color:  #ec3983 ;
+  box-shadow: 2px 2px 3px #ccc inset;
+ }
+ .s4 #l:hover{
+  color:  darkblue;
+  box-shadow: 2px 2px 3px #ccc inset;
+ }
+ .s4 #w:hover{
+  color:  #37eb4a ;
+  box-shadow: 2px 2px 3px #ccc inset;
+ }
+ .s4 #y:hover{
+  color:  red ;
+  box-shadow: 2px 2px 3px #ccc inset;
+ }
+ .h4{
+  position: absolute;
+  left: 40%;
+  color: #535353;
+  font-family:Microsoft Yi Baiti;
+  letter-spacing: 2px;
+ }
+ .h4 a {
+  text-decoration: none;
+   border-bottom: 1px dotted black;
+   color: #535353;
+ }
+ .h4 .aa:hover{
+    color: hotpink;
+    border-bottom: 1px dotted hotpink;
+ }
+ /* media query section one  */
+ @media only screen and ( max-width:1120px) {
+  
+  .s1{
+    height: 400px;
+}
+header div{
+ width: 85%;
+}
+header{
+    width: 100%;
+    top:30%;
+}
+header p{
+    font-size:55px;
+    width: 100%;   
+}
+ /* media query section two  */
+ .s2{
+    height: 600px;
+ }
+ .s2 .divs2{
+    height: 535px;
+    width: 90%;
+    top: 50px;
+ }
+ .s2 .divs2 i{
+    border-radius: 50%; 
+    top: 55px;
+    left: 33%
+ }
+ .divs2 h1{
+    top: 170px;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+ .divs2 p{
+    width: 93%;
+    top:225px;
+ }
+.divs2 a {
+    font-size: 20px;
+    top: 420px;
+    }
+.s3{
+   height: 945px;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.s3 div{
+ height :450px;
+width:90%;
+}
+.s3 .div1{
+left:5%;
+}
+.s3 .div2{
+left:5%;
+}
+.s3 div img {
+  width: 100%;
+  height: 45%;
+  }
+ .s3 div h1{
+  letter-spacing: 1px;
+  font-size: 18px;
+  top: 13%;
+  left:23%;
+ }
+ .s3 div p{
+  top:37%;
+  font-size: 18px;
+  width: 80%;
+  left:10%
+ }
+ .s3 div a{
+  font-size: 20px;
+  top:85%;
+  left:35%;
+ }
+ 
+ .s4{
+  height: 470px;
+ }
+ .s4 h1{
+  letter-spacing: 3px;
+  font-size: 22px;
+  top:4%;
+ }
+ .s4 p{
+  width: 100%;
+  font-size: 20px;
+  top:20%;
+ }
+ .s4 .a{
+  letter-spacing: 5px;
+  top:53%
+ }
+  .s4 div{
+   width: 50%;
+   top: 78%;
+   left:29%;
+  }
+  .s4 i{
+   padding: 5px;
+   border-radius: 50%;
+  }
+  .s4 #iii{
+   width:100%;
+   top:85%;
+   left:10%;
+   position: absolute;
+  }
+.h4{
+  left: 0%;
+  letter-spacing: 1px;
+ }
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
